@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(234, 29%, 20%);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 40px;
+}
+p{
+    font-size: 15px;
+    color:  hsl(235, 18%, 26%);
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.email{
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    margin-top: 7px;
+}
+.content{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 440px;
+    width: 700px;
+    padding: 10px ;
+    box-shadow: 0px 0px 7px 0px;
+}
+button{
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+.right{
+    margin-top: 10px;
+}
+.right img{
+    width: 300px;
+    height: 400px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+ul img{
+    margin-right: 10px;
+}
+ul li {
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+    color: hsl(235, 18%, 26%);
+}
+.left button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+.second{
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+a{
+    color: white;
+    text-decoration: no;
+}
+.main2 img{
+    width: 50px;
+}
+.success{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.success p{
+font-size: 14px;
+}
+.success button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+.error{
+    color: rgb(242,18,18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.err{
+    display: flex;
+    justify-content: space-between;
+}
+
